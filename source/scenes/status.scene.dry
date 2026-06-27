@@ -100,6 +100,7 @@ Economic growth: [+ economic_growth_2 +]%
 
 [? if neorevisionism > 0 : Neorevisionist strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +] ?]
 
+[? if agrarian_socialism > 0 : Agrarian-Socialist strength: [+ agsoc_strength : strength +], dissent: [+ agsoc_dissent : dissent +] ?]
 
 @paramilitaries
 on-arrival: {!
