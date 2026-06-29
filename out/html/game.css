@@ -570,7 +570,28 @@ table {
     fill: #C40000;
 }
 
-.tooltip-text {
-    text-decoration: underline;
-    text-decoration-style: dotted;
+info-tip-wrap {
+    position: relative;
+    display: inline;
+    cursor: help;
+    text-decoration: underline dotted;
+}
+info-tip-wrap info-tip {
+    display: none;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    border: 2px solid #999;
+    padding: 10px;
+    width: 500px;
+    font-size: 0.90em;
+    text-align: center;
+    z-index: 100;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    color: #000;
+}
+info-tip-wrap:hover info-tip {
+    display: block;
 }

@@ -653,7 +653,7 @@ Leon Kopp is now an advisor.
 
 @add_kraus
 title: Conrad Kraus
-subtitle: Conrad Kraus is a member of the FAUD, Germany's premier syndicalist union. {!<br><br>!}Actions - Building a Farmworkers Union, Co-operation with the FAUD, Influence the Trade Unions
+subtitle: Conrad Kraus is a member of the FAUD, Germany's premier syndicalist union. {!<br><br>!}Actions - Building a Farmworkers Union, Co-operation with the FAUD, Rural Organizing
 is-card: true
 card-image: img/portraits/BaadeFritz.jpg
 view-if: kraus_advisor = 0 and n_advisors < 3
