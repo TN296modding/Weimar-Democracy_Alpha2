@@ -1,5 +1,13 @@
 title: Election
 on-arrival: {!
+// Tells if there is a typo causing an undefined
+for (var c of Q.classes) {
+    for (var party of Q.parties) {
+        if (Q[c+'_'+party] === undefined) {
+            throw new Error('Missing value: ' + c + '_' + party);
+        }
+    }
+}
 // calculate normalized class voting amounts (0 to 100)
 for (var c of Q.classes) {
     var class_votes = 0;
